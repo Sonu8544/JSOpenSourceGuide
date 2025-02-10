@@ -38,11 +38,10 @@ This repository is open for **all developers** to contribute. You can share Java
 
 ## 🚀 How to Contribute?  
 
-1. **Fork** this repository.  
-2. **Clone** your forked repo:  
-   ```bash
-   git clone https://github.com/your-username/OpenSourceJavaScript.git
-
+1️⃣ Fork the repo & clone it: https://github.com/Sonu8544/JSOpenSourceGuide.git
+2️⃣ Create a new branch for your feature
+3️⃣ Make your changes (new topic, fix bugs, add examples)
+4️⃣ Submit a Pull Request (PR) – I’ll review & merge it!
    
 ## 🙌 Join Us & Start Contributing!
 We welcome developers of all levels. Your contributions will help others learn and grow! Let's build an amazing JavaScript knowledge hub together. 🚀
