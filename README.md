@@ -50,9 +50,12 @@ If changes are requested, update your branch and push again.
 🎉 Once merged, your contribution becomes part of the repository!
 ```
 
+## 📌 Topics to Cover
+
+We have to cover all the topics listed below to ensure a complete and in-depth understanding of JavaScript from beginner to advanced levels.  
+Contributions should follow the structured format and best practices.  
 
 ## 🛠️ What Can You Contribute?  
-
 ## Beginner Level (1-20)
 
 1. **Introduction to JavaScript**
