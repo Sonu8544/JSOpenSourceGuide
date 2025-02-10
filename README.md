@@ -48,7 +48,7 @@ Step 9: Review & Merge
 Your PR will be reviewed and merged if it follows best practices.
 If changes are requested, update your branch and push again.
 🎉 Once merged, your contribution becomes part of the repository!
-(` ``` `)
+```
 
 
 ## 🛠️ What Can You Contribute?  
