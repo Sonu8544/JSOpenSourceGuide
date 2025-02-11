@@ -7,18 +7,18 @@
 
 // Example :-
 
-let a = 10;
-let b = 5;
+let numOne = 10;
+let numTwo = 5;
 
-let sum = a + b; // Addition (sum = 15)
+let sum = numOne + numTwo ; // Addition (sum = 15)
 
-let difference = a - b; // Subtraction (difference = 5)
+let difference = numOne - numTwo; // Subtraction (difference = 5)
 
-let product = a * b; // Multiplication (product = 50)
+let product = numOne * numTwo; // Multiplication (product = 50)
 
-let quotient = a / b; // Division (quotient = 2)
+let quotient = numOne / numTwo; // Division (quotient = 2)
 
-let remainder = a % b; // Modulus (remainder = 0)
+let remainder = numOne % numTwo; // Modulus (remainder = 0)
 
 
 
@@ -26,19 +26,19 @@ let remainder = a % b; // Modulus (remainder = 0)
 
 // Example :-
 
-let x = 10;   // assigns the value 10 to variable x
+let valueOne = 10;   // assigns the value 10 to variable valueOne
 
-let y = 5;
+let valueTwo = 5;
 
-y += x;  // equivalent to y = y + x (y = 15)
+valueTwo += valueOne;  // equivalent to valueTwo = valueTwo + valueOne (valueTwo = 15)
 
-y -= x;  // equivalent to y = y - x (y = 5)
+valueTwo -= valueOne;  // equivalent to valueTwo = valueTwo - valueOne (valueTwo = 5)
 
-y *= x;  // equivalent to y = y * x (y = 50)
+valueTwo *= valueOne;  // equivalent to valueTwo = valueTwo * valueOne (valueTwo = 50)
 
-y /= x;  // equivalent to y = y / x (y = 5)
+valueTwo /= valueOne;  // equivalent to valueTwo = valueTwo / valueOne (valueTwo = 5)
 
-y %= x;  // equivalent to y = y % x (y = 0)
+valueTwo %= valueOne;  // equivalent to valueTwo = valueTwo % valueOne (valueTwo = 0)
 
 
 
@@ -46,38 +46,40 @@ y %= x;  // equivalent to y = y % x (y = 0)
 // 3. Comparison Operators :- Comparison operators are used to compare two values and return a Boolean value (true or false) based on the comparison. They include the equality operator (==), strict equality operator (===), inequality operator (!=), strict inequality operator (!==), greater than operator (>), greater than or equal to operator (>=), less than operator (<), and less than or equal to operator (<=).
 
 // Example :-
-let p = 10;
-let q = 5;
 
-let isEqual = p == q; // Equality (isEqual = false)
+let comperasionOne = 10;
+let comperasionTwo = 5;
 
-let isStrictEqual = p === q; // Strict Equality (isStrictEqual = false)
+let isEqual = comperasionOne == comperasionTwo; // Equality (isEqual = false)
 
-let isNotEqual = p != q; // Inequality (isNotEqual = true)
+let isStrictEqual = comperasionOne === comperasionTwo; // Strict Equality (isStrictEqual = false)
 
-let isStrictNotEqual = p !== q; // Strict Inequality (isStrictNotEqual = true)
+let isNotEqual = comperasionOne != comperasionTwo; // Inequality (isNotEqual = true)
 
-let isGreaterThan = p > q; // Greater Than (isGreaterThan = true)
+let isStrictNotEqual = comperasionOne !== comperasionTwo; // Strict Inequality (isStrictNotEqual = true)
 
-let isGreaterThanOrEqual = p >= q; // Greater Than or Equal To (isGreaterThanOrEqual = true)
+let isGreaterThan = comperasionOne > comperasionTwo; // Greater Than (isGreaterThan = true)
 
-let isLessThan = p < q; // Less Than (isLessThan = false)
+let isGreaterThanOrEqual = comperasionOne >= comperasionTwo; // Greater Than or Equal To (isGreaterThanOrEqual = true)
 
-let isLessThanOrEqual = p <= q; // Less Than or Equal To (isLessThanOrEqual = false)
+let isLessThan = comperasionOne < comperasionTwo; // Less Than (isLessThan = false)
+
+let isLessThanOrEqual = comperasionOne <= comperasionTwo; // Less Than or Equal To (isLessThanOrEqual = false)
 
 
 
 // 4. Logical Operators :- Logical operators are used to combine multiple conditions and return a single Boolean value. They include the logical AND operator (&&), logical OR operator (||), and logical NOT operator (!).
 
 // Example :-
-let r = true;
-let s = false;
 
-let andResult = r && s; // Logical AND (andResult = false)
+let boolOne = true;
+let boolTwo = false;
 
-let orResult = r || s; // Logical OR (orResult = true)
+let andResult = boolOne && boolTwo; // Logical AND (andResult = false)
 
-let notResult = !r; // Logical NOT (notResult = false)
+let orResult = boolOne || boolTwo; // Logical OR (orResult = true)
+
+let notResult = !boolOne; // Logical NOT (notResult = false)
 
 
 
@@ -85,23 +87,23 @@ let notResult = !r; // Logical NOT (notResult = false)
 
 // Example :-
 
-let t = 5; // binary representation: 101
+let firstBitNum = 5; // binary representation: 101
 
-let u = 3; // binary representation: 011
+let secondBitNum = 3; // binary representation: 011
 
-let bitwiseAnd = t & u; // Bitwise AND (bitwiseAnd = 1)
+let bitwiseAnd = firstBitNum & secondBitNum; // Bitwise AND (bitwiseAnd = 1)
 
-let bitwiseOr = t | u; // Bitwise OR (bitwiseOr = 7 that is 111)
+let bitwiseOr = firstBitNum | secondBitNum; // Bitwise OR (bitwiseOr = 7 that is 111)
 
-let bitwiseXor = t ^ u; // Bitwise XOR (bitwiseXor = 6 that is 110)
+let bitwiseXor = firstBitNum ^ secondBitNum; // Bitwise XOR (bitwiseXor = 6 that is 110)
 
-let bitwiseNot = ~t; // Bitwise NOT (bitwiseNot = -6)
+let bitwiseNot = ~firstBitNum ; // Bitwise NOT (bitwiseNot = -6)
 
-let leftShift = t << 1; // Left Shift (leftShift = 10 that is 1010)
+let leftShift = firstBitNum  << 1; // Left Shift (leftShift = 10 that is 1010)
 
-let rightShift = t >> 1; // Right Shift (rightShift = 2 that is 10)
+let rightShift = firstBitNum  >> 1; // Right Shift (rightShift = 2 that is 10)
 
-let zeroFillRightShift = t >>> 1; // Zero-fill Right Shift (zeroFillRightShift = 2 that is 10)
+let zeroFillRightShift = firstBitNum  >>> 1; // Zero-fill Right Shift (zeroFillRightShift = 2 that is 10)
 
 
 
@@ -109,19 +111,19 @@ let zeroFillRightShift = t >>> 1; // Zero-fill Right Shift (zeroFillRightShift =
 
 // Example :-
 
-let v = 5;
+let unaryNum = 5;
 
-let unaryPlus = +v; // Unary Plus (unaryPlus = 5)
+let unaryPlus = +unaryNum; // Unary Plus (unaryPlus = 5)
 
-let unaryMinus = -v; // Unary Minus (unaryMinus = -5)
+let unaryMinus = -unaryNum; // Unary Minus (unaryMinus = -5)
 
-let increment = ++v; // Increment (increment = 6)
+let increment = ++unaryNum; // Increment (increment = 6)
 
-let decrement = --v; // Decrement (decrement = 5)
+let decrement = --unaryNum; // Decrement (decrement = 5)
 
-let logicalNot = !v; // Logical NOT (logicalNot = false)
+let logicalNot = !unaryNum; // Logical NOT (logicalNot = false)
 
-let bitWiseNot = ~v; // Bitwise NOT (bitwiseNot = -6)
+let bitWiseNot = ~unaryNum; // Bitwise NOT (bitwiseNot = -6)
 
 
 
@@ -129,9 +131,9 @@ let bitWiseNot = ~v; // Bitwise NOT (bitwiseNot = -6)
 
 // Example :-
 
-let w = 10;
+let tarnaryNum = 10;
 
-let result = w > 5 ? "greater than 5" : "less than or equal to 5"; // Ternary Operator (result = "greater than 5")
+let result = tarnaryNum > 5 ? "greater than 5" : "less than or equal to 5"; // Ternary Operator (result = "greater than 5")
 
 
 
@@ -167,9 +169,9 @@ let isArray = arr instanceof Array; // instanceof Operator (isArray = true)
 
 // Example :-
 
-let e = 1, f = 2, g = 3;
+let firstVal = 1, secondVal = 2, thirdVal = 3;
 
-let commaResult = (e += f, e += g); // Comma Operator (commaResult = 6)
+let commaResult = (firstVal += secondVal , firstVal += thirdVal); // Comma Operator (commaResult = 6)
 
 
 
@@ -177,11 +179,11 @@ let commaResult = (e += f, e += g); // Comma Operator (commaResult = 6)
 
 // Example :-
 
-let h = 10, i = 5, j = 2;
+let groupNumOne = 10, groupNumTwo = 5, groupNumThree = 2;
 
-let groupResult = h + i * j; // Without Grouping (groupResult = 20)
+let groupResult = groupNumOne + groupNumTwo * groupNumThree; // Without Grouping (groupResult = 20)
 
-let groupResultWithGrouping = (h + i) * j; // With Grouping (groupResultWithGrouping = 30)
+let groupResultWithGrouping = (groupNumOne + groupNumThree) * groupNumThree; // With Grouping (groupResultWithGrouping = 30)
 
 
 
@@ -199,10 +201,10 @@ let arr2 = [...arr1, 4, 5, 6]; // Spread Operator (arr2 = [1, 2, 3, 4, 5, 6])
 
 // Example :-
 
-let k = null;
-let l = 5;
+let valOne = null;
+let valTwo = 5;
 
-let nullishCoalescing = k ?? l; // Nullish Coalescing Operator (nullishCoalescing = 5)
+let nullishCoalescing = valOne ?? valTwo; // Nullish Coalescing Operator (nullishCoalescing = 5)
 
 
 
