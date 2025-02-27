@@ -10,7 +10,7 @@
 let numOne = 10;
 let numTwo = 5;
 
-let sum = numOne + numTwo ; // Addition (sum = 15)
+let sum = numOne + numTwo; // Addition (sum = 15)
 
 let difference = numOne - numTwo; // Subtraction (difference = 5)
 
@@ -97,13 +97,13 @@ let bitwiseOr = firstBitNum | secondBitNum; // Bitwise OR (bitwiseOr = 7 that is
 
 let bitwiseXor = firstBitNum ^ secondBitNum; // Bitwise XOR (bitwiseXor = 6 that is 110)
 
-let bitwiseNot = ~firstBitNum ; // Bitwise NOT (bitwiseNot = -6)
+let bitwiseNot = ~firstBitNum; // Bitwise NOT (bitwiseNot = -6)
 
-let leftShift = firstBitNum  << 1; // Left Shift (leftShift = 10 that is 1010)
+let leftShift = firstBitNum << 1; // Left Shift (leftShift = 10 that is 1010)
 
-let rightShift = firstBitNum  >> 1; // Right Shift (rightShift = 2 that is 10)
+let rightShift = firstBitNum >> 1; // Right Shift (rightShift = 2 that is 10)
 
-let zeroFillRightShift = firstBitNum  >>> 1; // Zero-fill Right Shift (zeroFillRightShift = 2 that is 10)
+let zeroFillRightShift = firstBitNum >>> 1; // Zero-fill Right Shift (zeroFillRightShift = 2 that is 10)
 
 
 
@@ -171,7 +171,7 @@ let isArray = arr instanceof Array; // instanceof Operator (isArray = true)
 
 let firstVal = 1, secondVal = 2, thirdVal = 3;
 
-let commaResult = (firstVal += secondVal , firstVal += thirdVal); // Comma Operator (commaResult = 6)
+let commaResult = (firstVal += secondVal, firstVal += thirdVal); // Comma Operator (commaResult = 6)
 
 
 
@@ -213,11 +213,11 @@ let nullishCoalescing = valOne ?? valTwo; // Nullish Coalescing Operator (nullis
 // Example :-
 
 let obj = {
-  prop1: {
-    prop2: {
-      prop3: 5
+    prop1: {
+        prop2: {
+            prop3: 5
+        }
     }
-  }
 };
 
 let optionalChaining = obj.prop1?.prop2?.prop3; // Optional Chaining Operator (optionalChaining = 5)
@@ -228,8 +228,8 @@ let optionalChaining = obj.prop1?.prop2?.prop3; // Optional Chaining Operator (o
 
 // Example :-
 let person = {
-  name: "John",
-  age: 30
+    name: "John",
+    age: 30
 };
 
 delete person.age; // Delete Operator (person = { name: "John" })
