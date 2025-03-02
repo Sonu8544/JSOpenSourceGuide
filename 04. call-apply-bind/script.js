@@ -19,7 +19,6 @@ let printName = function (homeTown="") {
 
 // function borrowing
 printName.call(name, "Bihar");
-// console.log(name.printName());
 
 
 const name2 = {
